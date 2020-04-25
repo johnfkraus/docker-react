@@ -14,3 +14,15 @@ test('renders basic rules link', () => {
   const linkElement = getByText(/basic rules/i);
   expect(linkElement).toBeInTheDocument();
 });
+
+test('renders windows drools in document', () => {
+  const { getByText } = render(<App />);
+  const pElement = getByText(/Windows drools/i);
+  expect(pElement).toBeInTheDocument();
+});
+
+test('renders word change', () => {
+  const { getByText } = render(<App />);
+  const pElement = getByText(/change/i);
+  expect(pElement).toBeInTheDocument();
+});

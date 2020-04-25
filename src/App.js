@@ -18,6 +18,8 @@ function App() {
         >
           BASIC RULES!!!
         </a>
+        <p>Windows drools, fools!</p>
+        <p>New change here</p>
       </header>
     </div>
   );
