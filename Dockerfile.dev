@@ -1,0 +1,19 @@
+# build the container:
+# docker build -f Dockerfile.dev .
+# run the container:
+# [winpty] docker run -it -p 3000:3000 CONTAINER_ID
+# without '-it' container exits immediately
+
+FROM node:alpine
+
+WORKDIR '/app'
+
+COPY package.json .
+RUN npm install
+
+# you can delete your node_modules directory before copying...
+# deleting node_modules from your local directory will make this go faster
+COPY . .
+
+CMD ["npm", "run", "start"]
+# for production you would run npm run build
