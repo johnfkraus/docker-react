@@ -1,10 +1,13 @@
 # frontend
 ## docker-react (is the Github repo name)
 
+[![Build Status](https://travis-ci.com/johnfkraus/docker-react.svg?branch=master)](https://travis-ci.com/johnfkraus/docker-react)
+
+[![Build Status](https://travis-ci.com/johnfkraus/docker-react.svg?branch=develop)](https://travis-ci.com/johnfkraus/docker-react)
+
 Tutorial project
 Source:
 https://www.udemy.com/course/docker-and-kubernetes-the-complete-guide/learn/lecture/11437058#overview
-
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
