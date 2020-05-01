@@ -1,4 +1,5 @@
-# frontent
+# frontend
+## docker-react (is the Github repo name)
 
 Tutorial project
 Source:
